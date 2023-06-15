@@ -32,8 +32,8 @@ def heapSort(data):
 import random
 if __name__ == '__main__':
     dataset=[]
-    for i in range(9999):
-        #x=random.randrange(0, 30033)
+for i in range(4902939):
+    #x=random.randrange(0, 500000339783)
         dataset.append(i)
         heapSort(dataset)
         N = len(dataset)
